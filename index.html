@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App || To DO List</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;600&family=Nanum+Gothic:wght@400;700;800&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Jost:wght@100;300;400;500;600&family=Nanum+Gothic:wght@400;700;800&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+    <section class="to-do-list p-5 ">
+        <div class="container bg-color mt-5">
+            <div class="task  p-5">
+                <div class="text-h1 text-center">
+                    <h1 class="wow bounceIn" data-wow-iteration="1"  data-wow-duration="2s"><span class="span1">to</span> <span class="span2">do</span> <span class="span3">list</span></h1>
+                </div>
+                <div class="row p-0 mt-4 wow bounceInUp" data-wow-duration="2s">
+                    <div class="col-lg-6 col-md-12 mt-4 mb-3">
+                        <input type="text" id="task" class="form-control w-100 p-3  " placeholder="write task">
+                    </div>
+                    <div class="task-text col-lg-3 col-md-6 col-sm-6 text-right mb-3 mt-4">
+                        <button class="btn w-50"  onclick="add()">add task </button>
+                    </div>
+                    <div class="task-text col-lg-3 col-md-6 col-sm-6  mt-4 mb-3">
+                        <button class="btn Btn w-50" onclick="DeleteAllTasks()">Delete all</button>
+                    </div>
+                </div>
+                <div class="text px-5 mb-5">
+                    <form action="" id="form">
+
+                    </form>
+                </div>
+                
+                <div class="text2 px-5 p-4 mb-5 text-center wow bounceInUp " data-wow-duration="2s" id="text">
+                    <div class="overlay py-2 text-center" id="overlay" ></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/main.js"></script>
+</body>
+</html>

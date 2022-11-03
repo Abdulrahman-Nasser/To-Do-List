@@ -1,0 +1,132 @@
+.bg-color{
+    background-color: white;
+    box-shadow: 0 0 20px black;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.btn{
+    background-color: #fff;
+    color: black !important;
+    border: 1px solid pink ;
+    transition: all .3s;
+}
+input{
+    border: 2px solid pink !important;
+}
+.btn:hover{
+    color: white !important;
+    background-color: pink;
+    border: 1px solid pink ;
+    box-shadow: 0 0 15px black;
+}
+body{
+    
+    background-color: #f1f1f1;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.text2{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(221, 217, 217);
+    width: 50%;
+    margin: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Jost",sans-serif;
+    color: #292621;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: rgb(83, 175, 83) !important;
+    left: 0;
+    top:0;
+    z-index: -1;
+}
+.text2 p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+::placeholder{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+h1{
+    text-transform: capitalize;
+}
+.span1{
+    color: pink;
+}
+.span2{
+    color: aquamarine;
+}
+.span3{
+    color: rgb(226, 226, 11);
+}
+.check1{
+    display: flex;
+    flex-wrap: wrap;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.BTN{
+    color: black;
+    border-radius: 100%;
+    border: none;
+    padding:15px 20px !important ;
+    transition: all .3s;
+    background-color: #fff;
+    border: 1px solid pink;
+}
+.BTN:hover{
+    background-color: #ff2020;
+    box-shadow: 0 0 10px pink;
+    color: #fff;
+}
+label{
+    text-transform: capitalize;
+}
+.Btn:hover{
+    background-color: #ff2020;
+}
+@media screen and (max-width:768px) {
+    .offset-7{
+        margin-left: 0 !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .task-text{
+        width: 100% ;
+        text-align: center !important;
+    }
+    .offset-7{
+        margin-left: 0 !important;
+    }
+    .p-5{
+        padding: 0 !important;
+    }
+    .check1{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .mr-3, .mx-3 {
+        margin-left: 0 !important;
+    }
+    .text2 {
+        width: 100% !important;
+    }
+}
